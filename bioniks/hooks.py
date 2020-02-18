@@ -120,3 +120,21 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "bioniks.event.get_events"
 # }
 
+fixtures = [
+       {
+         "dt": "Custom Field", 
+         "filters":[["name", "in", [
+             'Quotation-lead_time', 'Quotation-warranty'     
+             ]]]
+      },
+      {
+        "dt": "Print Format", 
+        "filters": [["name", "in", [
+            "Quotation with Total - New", "Quotation - New",
+            "Sales Order - New", 
+            "Sales Invoice - New", "Commercial Invoice",
+            "Delivery Note - New"
+
+        ]]]
+      }
+]
