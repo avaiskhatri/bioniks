@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bioniks *.css
+recursive-include bioniks *.csv
+recursive-include bioniks *.html
+recursive-include bioniks *.ico
+recursive-include bioniks *.js
+recursive-include bioniks *.json
+recursive-include bioniks *.md
+recursive-include bioniks *.png
+recursive-include bioniks *.py
+recursive-include bioniks *.svg
+recursive-include bioniks *.txt
+recursive-exclude bioniks *.pyc
