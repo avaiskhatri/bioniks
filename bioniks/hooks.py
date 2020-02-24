@@ -121,10 +121,16 @@ app_license = "MIT"
 # }
 
 fixtures = [
-       {
+      {
          "dt": "Custom Field", 
          "filters":[["name", "in", [
              'Quotation-lead_time', 'Quotation-warranty'     
+             ]]]
+      },
+      {
+         "dt": "Quotation Item", 
+         "filters":[["name", "in", [
+             'Item Code', 'Description', 'Quantity', 'Rate'     
              ]]]
       },
       {
