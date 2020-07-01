@@ -131,7 +131,7 @@ fixtures = [
       {
         "dt": "Print Format", 
         "filters": [["name", "in", [
-            "Quotation with Total - New", "Quotation - New",
+            "Quotation (GST) with Total","Quotation - Commercial","Quotation with Total - Commercial","Quotation (GST)",
             "Sales Order - New", 
             "Sales Invoice - New", "Commercial Invoice",
             "Delivery Note - New"
