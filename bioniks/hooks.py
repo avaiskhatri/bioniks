@@ -121,11 +121,18 @@ app_license = "MIT"
 # }
 
 fixtures = [
-      "Property Setter",
+      {
+         "dt": "Property Setter", 
+         "filters":[["name", "in", [
+             'Journal Entry-naming_series-default',
+             'Journal Entry-naming_series-options'
+            ]]]
+      },
       {
          "dt": "Custom Field", 
          "filters":[["name", "in", [
-             'Quotation-lead_time', 'Quotation-warranty'     
+             'Quotation-lead_time', 'Quotation-warranty',
+             'Customer-reference','Customer-reference_relation','Customer-reference_name','Customer-cnic_image','Customer-category','Customer-affected_limb_media','Customer-in_contact_since','Customer-personal','Customer-reason_of_amputation','Customer-when_amputation_happened','Customer-representative_remarks','Customer-zakat_eligibility','Customer-family_members','Customer-financial_affordability','Customer-financial_information','Customer-weight','Customer-body','Customer-type_of_amputation','Customer-amputation','Customer-hand_level_of_amputation','Customer-leg_level_of_amputation','Customer-column_break_2','Customer-lower_limb','Customer-upper_limb','Customer-column_break_1','Customer-bioniks'
              ]]]
       },
       {
@@ -135,7 +142,6 @@ fixtures = [
             "Sales Order - New", 
             "Sales Invoice - New", "Commercial Invoice",
             "Delivery Note - New"
-
         ]]]
       }
 ]

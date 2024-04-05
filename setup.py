@@ -15,7 +15,7 @@ with open('bioniks/__init__.py', 'rb') as f:
 setup(
 	name='bioniks',
 	version=version,
-	description='Customization for bioniks',
+	description='Customization for Bioniks',
 	author='Betalogics',
 	author_email='avaiskhatri@hotmail.com',
 	packages=find_packages(),
